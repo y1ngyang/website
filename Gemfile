@@ -1,13 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll", "~> 3.6.3"
+gem 'jekyll', '3.7.2'
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-menus"
-  gem "jekyll-tagging"
-  gem "jekyll-archives"
+  gem 'jekyll-seo-tag', '2.4.0'
+  gem 'jekyll-sitemap', '1.2.0'
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
